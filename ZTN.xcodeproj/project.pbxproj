@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0B0602524509478003DCB5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0602424509478003DCB5F /* AppDelegate.swift */; };
+		F0B0602724509478003DCB5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0602624509478003DCB5F /* ContentView.swift */; };
+		F0B0602A24509478003DCB5F /* ZTN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0B0602824509478003DCB5F /* ZTN.xcdatamodeld */; };
+		F0B0602C24509479003DCB5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0B0602B24509479003DCB5F /* Assets.xcassets */; };
+		F0B0602F24509479003DCB5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0B0602E24509479003DCB5F /* Preview Assets.xcassets */; };
+		F0B0603224509479003DCB5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B0603024509479003DCB5F /* Main.storyboard */; };
+		F0B0603E24509479003DCB5F /* ZTNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0603D24509479003DCB5F /* ZTNTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0B0603A24509479003DCB5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0B0601924509478003DCB5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0B0602024509478003DCB5F;
+			remoteInfo = ZTN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0B0602124509478003DCB5F /* ZTN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B0602424509478003DCB5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0B0602624509478003DCB5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0B0602924509478003DCB5F /* ZTN.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZTN.xcdatamodel; sourceTree = "<group>"; };
+		F0B0602B24509479003DCB5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0B0602E24509479003DCB5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0B0603124509479003DCB5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0B0603324509479003DCB5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0B0603424509479003DCB5F /* ZTN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZTN.entitlements; sourceTree = "<group>"; };
+		F0B0603924509479003DCB5F /* ZTNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B0603D24509479003DCB5F /* ZTNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTNTests.swift; sourceTree = "<group>"; };
+		F0B0603F24509479003DCB5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0B0601E24509478003DCB5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B0603624509479003DCB5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0B0601824509478003DCB5F = {
+			isa = PBXGroup;
+			children = (
+				F0B0602324509478003DCB5F /* ZTN */,
+				F0B0603C24509479003DCB5F /* ZTNTests */,
+				F0B0602224509478003DCB5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0B0602224509478003DCB5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0B0602124509478003DCB5F /* ZTN.app */,
+				F0B0603924509479003DCB5F /* ZTNTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0B0602324509478003DCB5F /* ZTN */ = {
+			isa = PBXGroup;
+			children = (
+				F0B0602424509478003DCB5F /* AppDelegate.swift */,
+				F0B0602624509478003DCB5F /* ContentView.swift */,
+				F0B0602B24509479003DCB5F /* Assets.xcassets */,
+				F0B0603024509479003DCB5F /* Main.storyboard */,
+				F0B0603324509479003DCB5F /* Info.plist */,
+				F0B0603424509479003DCB5F /* ZTN.entitlements */,
+				F0B0602824509478003DCB5F /* ZTN.xcdatamodeld */,
+				F0B0602D24509479003DCB5F /* Preview Content */,
+			);
+			path = ZTN;
+			sourceTree = "<group>";
+		};
+		F0B0602D24509479003DCB5F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F0B0602E24509479003DCB5F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0B0603C24509479003DCB5F /* ZTNTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0B0603D24509479003DCB5F /* ZTNTests.swift */,
+				F0B0603F24509479003DCB5F /* Info.plist */,
+			);
+			path = ZTNTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0B0602024509478003DCB5F /* ZTN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B0604224509479003DCB5F /* Build configuration list for PBXNativeTarget "ZTN" */;
+			buildPhases = (
+				F0B0601D24509478003DCB5F /* Sources */,
+				F0B0601E24509478003DCB5F /* Frameworks */,
+				F0B0601F24509478003DCB5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTN;
+			productName = ZTN;
+			productReference = F0B0602124509478003DCB5F /* ZTN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0B0603824509479003DCB5F /* ZTNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B0604524509479003DCB5F /* Build configuration list for PBXNativeTarget "ZTNTests" */;
+			buildPhases = (
+				F0B0603524509479003DCB5F /* Sources */,
+				F0B0603624509479003DCB5F /* Frameworks */,
+				F0B0603724509479003DCB5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0B0603B24509479003DCB5F /* PBXTargetDependency */,
+			);
+			name = ZTNTests;
+			productName = ZTNTests;
+			productReference = F0B0603924509479003DCB5F /* ZTNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0B0601924509478003DCB5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Alex Lisle";
+				TargetAttributes = {
+					F0B0602024509478003DCB5F = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					F0B0603824509479003DCB5F = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = F0B0602024509478003DCB5F;
+					};
+				};
+			};
+			buildConfigurationList = F0B0601C24509478003DCB5F /* Build configuration list for PBXProject "ZTN" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0B0601824509478003DCB5F;
+			productRefGroup = F0B0602224509478003DCB5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0B0602024509478003DCB5F /* ZTN */,
+				F0B0603824509479003DCB5F /* ZTNTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0B0601F24509478003DCB5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B0603224509479003DCB5F /* Main.storyboard in Resources */,
+				F0B0602F24509479003DCB5F /* Preview Assets.xcassets in Resources */,
+				F0B0602C24509479003DCB5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B0603724509479003DCB5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0B0601D24509478003DCB5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B0602724509478003DCB5F /* ContentView.swift in Sources */,
+				F0B0602A24509478003DCB5F /* ZTN.xcdatamodeld in Sources */,
+				F0B0602524509478003DCB5F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B0603524509479003DCB5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B0603E24509479003DCB5F /* ZTNTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0B0603B24509479003DCB5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0B0602024509478003DCB5F /* ZTN */;
+			targetProxy = F0B0603A24509479003DCB5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0B0603024509479003DCB5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0B0603124509479003DCB5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0B0604024509479003DCB5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0B0604124509479003DCB5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F0B0604324509479003DCB5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZTN/ZTN.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ZTN/Preview Content\"";
+				DEVELOPMENT_TEAM = 75FTTYURB7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ZTN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerotrustnetworks.ZTN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F0B0604424509479003DCB5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZTN/ZTN.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ZTN/Preview Content\"";
+				DEVELOPMENT_TEAM = 75FTTYURB7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ZTN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerotrustnetworks.ZTN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F0B0604624509479003DCB5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 75FTTYURB7;
+				INFOPLIST_FILE = ZTNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerotrustnetworks.ZTNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZTN.app/Contents/MacOS/ZTN";
+			};
+			name = Debug;
+		};
+		F0B0604724509479003DCB5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 75FTTYURB7;
+				INFOPLIST_FILE = ZTNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerotrustnetworks.ZTNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZTN.app/Contents/MacOS/ZTN";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0B0601C24509478003DCB5F /* Build configuration list for PBXProject "ZTN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B0604024509479003DCB5F /* Debug */,
+				F0B0604124509479003DCB5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0B0604224509479003DCB5F /* Build configuration list for PBXNativeTarget "ZTN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B0604324509479003DCB5F /* Debug */,
+				F0B0604424509479003DCB5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0B0604524509479003DCB5F /* Build configuration list for PBXNativeTarget "ZTNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B0604624509479003DCB5F /* Debug */,
+				F0B0604724509479003DCB5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F0B0602824509478003DCB5F /* ZTN.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F0B0602924509478003DCB5F /* ZTN.xcdatamodel */,
+			);
+			currentVersion = F0B0602924509478003DCB5F /* ZTN.xcdatamodel */;
+			path = ZTN.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F0B0601924509478003DCB5F /* Project object */;
+}
