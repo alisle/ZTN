@@ -1,0 +1,62 @@
+[
+    {
+        "name" : "HTTP",
+        "port" : 80,
+        "description" : "The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser.",
+        "url" : "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol"
+    },
+    {
+        "name" : "HTTPS",
+        "port" : 443,
+        "description" : "Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol (HTTP). It is used for secure communication over a computer network, and is widely used on the Internet.",
+        "url" : "https://en.wikipedia.org/wiki/HTTPS"
+    },
+    {
+        "name" : "SSH",
+        "port" : 22,
+        "description" : "Secure Shell (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network. Typical applications include remote command-line, login, and remote command execution, but any network service can be secured with SSH.",
+        "url" : "https://en.wikipedia.org/wiki/Secure_Shell"
+    },
+    {
+        "name" : "FTP",
+        "port" : 21,
+        "description" : "The File Transfer Protocol (FTP) is a standard network protocol used for the transfer of computer files between a client and server on a computer network.",
+        "url" : "https://en.wikipedia.org/wiki/File_Transfer_Protocol"
+    },
+    {
+        "name": "FTP - Data",
+        "port" : 20,
+        "description" : "The File Transfer Protocol (FTP) is a standard network protocol used for the transfer of computer files between a client and server on a computer network.",
+        "url" : "https://en.wikipedia.org/wiki/File_Transfer_Protocol"
+    },
+    {
+        "name" : "Google Cloud Messaging",
+        "port" : 5228,
+        "description": "Google Cloud Messaging (GCM) was a mobile notification service developed by Google that enables third-party application developers to send notification data or information from developer-run servers to applications that target the Google Android Operating System, as well as applications or extensions developed for the Google Chrome internet browser.",
+        "url" : "https://en.wikipedia.org/wiki/Google_Cloud_Messaging"
+    },
+    {
+        "name" : "Roku External Control",
+        "port" : 8060,
+        "description" : "The External Control Protocol (ECP) enables a Roku device to be controlled over a local area network by providing a number of external control services. The Roku devices offering these external control services are discoverable using SSDP (Simple Service Discovery Protocol). ECP is a simple RESTful API that can be accessed by programs in virtually any programming environment.",
+        "url" : "https://developer.roku.com/docs/developer-program/debugging/external-control-api.md#simple-service-discovery-protocol-ssdp"
+    },
+    {
+        "name" : "Goole Chrome Cast",
+        "port": 8009,
+        "description" : "Commonly used by Google Chrome and ChromeCast",
+        "url" : "https://en.wikipedia.org/wiki/Chromecast"
+    },
+    {
+        "name" : "Apple Push Notification Service",
+        "port": 5223,
+        "description" : "Apple Push Notification service is a platform notification service created by Apple Inc. that enables third party application developers to send notification data to applications installed on Apple devices.",
+        "url" : "https://en.wikipedia.org/wiki/Apple_Push_Notification_service"
+    },
+    {
+        "name" : "Rapport Framework",
+        "port": 54252,
+        "description" : "Apple Rapport Framework, used to communicate between local apple devices.",
+        "url" : ""
+    }
+]

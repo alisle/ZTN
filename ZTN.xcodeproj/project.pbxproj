@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0241B1C2457D09A0064D893 /* PortServiceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0241B1B2457D09A0064D893 /* PortServiceDetails.swift */; };
+		F05F5B18245919BF00B37C39 /* DNSResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B17245919BF00B37C39 /* DNSResolver.swift */; };
+		F05F5B1A2459243300B37C39 /* Launcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B192459243300B37C39 /* Launcher.swift */; };
+		F05F5B1C245B2FF600B37C39 /* DecisionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B1B245B2FF600B37C39 /* DecisionEngine.swift */; };
+		F05F5B20245B37D900B37C39 /* ProcessDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B1F245B37D900B37C39 /* ProcessDetails.swift */; };
+		F05F5B23245B387D00B37C39 /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B22245B387D00B37C39 /* BundleExtension.swift */; };
+		F05F5B25245B38B200B37C39 /* ProcessResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B24245B38B200B37C39 /* ProcessResolver.swift */; };
+		F05F5B27245C83D200B37C39 /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B26245C83D200B37C39 /* Flow.swift */; };
+		F05F5B2A245C9DE400B37C39 /* protocols.json in Resources */ = {isa = PBXBuildFile; fileRef = F05F5B29245C9DE400B37C39 /* protocols.json */; };
+		F05F5B2E245CA08A00B37C39 /* ServiceResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B2D245CA08A00B37C39 /* ServiceResolver.swift */; };
 		F0B0602524509478003DCB5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0602424509478003DCB5F /* AppDelegate.swift */; };
 		F0B0602724509478003DCB5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0602624509478003DCB5F /* ContentView.swift */; };
 		F0B0602A24509478003DCB5F /* ZTN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0B0602824509478003DCB5F /* ZTN.xcdatamodeld */; };
@@ -14,6 +24,21 @@
 		F0B0602F24509479003DCB5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0B0602E24509479003DCB5F /* Preview Assets.xcassets */; };
 		F0B0603224509479003DCB5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B0603024509479003DCB5F /* Main.storyboard */; };
 		F0B0603E24509479003DCB5F /* ZTNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0603D24509479003DCB5F /* ZTNTests.swift */; };
+		F0B0604F245094EC003DCB5F /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B0604E245094EC003DCB5F /* NetworkExtension.framework */; };
+		F0B06052245094EC003DCB5F /* FilterDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B06051245094EC003DCB5F /* FilterDataProvider.swift */; };
+		F0B06054245094EC003DCB5F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B06053245094EC003DCB5F /* main.swift */; };
+		F0B06059245094EC003DCB5F /* com.zerotrustnetworks.ZTN.ZTNNetworkExtension.systemextension in Embed System Extensions */ = {isa = PBXBuildFile; fileRef = F0B0604C245094EC003DCB5F /* com.zerotrustnetworks.ZTN.ZTNNetworkExtension.systemextension */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F0B0605E245094FA003DCB5F /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B0604E245094EC003DCB5F /* NetworkExtension.framework */; };
+		F0B060602450958F003DCB5F /* ExtensionLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0605F2450958F003DCB5F /* ExtensionLauncher.swift */; };
+		F0B060632451D5A7003DCB5F /* IPCConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B060622451D5A7003DCB5F /* IPCConnection.swift */; };
+		F0B060642451D5A7003DCB5F /* IPCConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B060622451D5A7003DCB5F /* IPCConnection.swift */; };
+		F0B0608E24553761003DCB5F /* libbsm.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B0608D24553751003DCB5F /* libbsm.tbd */; };
+		F0B0608F245539CC003DCB5F /* libbsm.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B0608D24553751003DCB5F /* libbsm.tbd */; };
+		F0B060912456887E003DCB5F /* AppCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B060902456887E003DCB5F /* AppCommunication.swift */; };
+		F0B060922456887E003DCB5F /* AppCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B060902456887E003DCB5F /* AppCommunication.swift */; };
+		F0B06094245758DB003DCB5F /* DNSResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B06093245758DB003DCB5F /* DNSResponse.swift */; };
+		F0B06097245759B5003DCB5F /* IPAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B06096245759B5003DCB5F /* IPAddress.swift */; };
+		F0B0609924575C58003DCB5F /* SocketAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0609824575C58003DCB5F /* SocketAddress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,9 +49,40 @@
 			remoteGlobalIDString = F0B0602024509478003DCB5F;
 			remoteInfo = ZTN;
 		};
+		F0B06057245094EC003DCB5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0B0601924509478003DCB5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0B0604B245094EC003DCB5F;
+			remoteInfo = ZTNNetworkExtension;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F0B0605D245094EC003DCB5F /* Embed System Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(SYSTEM_EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+				F0B06059245094EC003DCB5F /* com.zerotrustnetworks.ZTN.ZTNNetworkExtension.systemextension in Embed System Extensions */,
+			);
+			name = "Embed System Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F0241B1B2457D09A0064D893 /* PortServiceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortServiceDetails.swift; sourceTree = "<group>"; };
+		F05F5B17245919BF00B37C39 /* DNSResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSResolver.swift; sourceTree = "<group>"; };
+		F05F5B192459243300B37C39 /* Launcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launcher.swift; sourceTree = "<group>"; };
+		F05F5B1B245B2FF600B37C39 /* DecisionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionEngine.swift; sourceTree = "<group>"; };
+		F05F5B1F245B37D900B37C39 /* ProcessDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessDetails.swift; sourceTree = "<group>"; };
+		F05F5B22245B387D00B37C39 /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
+		F05F5B24245B38B200B37C39 /* ProcessResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessResolver.swift; sourceTree = "<group>"; };
+		F05F5B26245C83D200B37C39 /* Flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
+		F05F5B29245C9DE400B37C39 /* protocols.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = protocols.json; sourceTree = "<group>"; };
+		F05F5B2D245CA08A00B37C39 /* ServiceResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceResolver.swift; sourceTree = "<group>"; };
 		F0B0602124509478003DCB5F /* ZTN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0B0602424509478003DCB5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0B0602624509478003DCB5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,6 +95,19 @@
 		F0B0603924509479003DCB5F /* ZTNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0B0603D24509479003DCB5F /* ZTNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTNTests.swift; sourceTree = "<group>"; };
 		F0B0603F24509479003DCB5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0B0604C245094EC003DCB5F /* com.zerotrustnetworks.ZTN.ZTNNetworkExtension.systemextension */ = {isa = PBXFileReference; explicitFileType = "wrapper.system-extension"; includeInIndex = 0; path = com.zerotrustnetworks.ZTN.ZTNNetworkExtension.systemextension; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B0604E245094EC003DCB5F /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		F0B06051245094EC003DCB5F /* FilterDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDataProvider.swift; sourceTree = "<group>"; };
+		F0B06053245094EC003DCB5F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F0B06055245094EC003DCB5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0B06056245094EC003DCB5F /* ZTNNetworkExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZTNNetworkExtension.entitlements; sourceTree = "<group>"; };
+		F0B0605F2450958F003DCB5F /* ExtensionLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionLauncher.swift; sourceTree = "<group>"; };
+		F0B060622451D5A7003DCB5F /* IPCConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPCConnection.swift; sourceTree = "<group>"; };
+		F0B0608D24553751003DCB5F /* libbsm.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbsm.tbd; path = usr/lib/libbsm.tbd; sourceTree = SDKROOT; };
+		F0B060902456887E003DCB5F /* AppCommunication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCommunication.swift; sourceTree = "<group>"; };
+		F0B06093245758DB003DCB5F /* DNSResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSResponse.swift; sourceTree = "<group>"; };
+		F0B06096245759B5003DCB5F /* IPAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPAddress.swift; sourceTree = "<group>"; };
+		F0B0609824575C58003DCB5F /* SocketAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketAddress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +115,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0B0605E245094FA003DCB5F /* NetworkExtension.framework in Frameworks */,
+				F0B0608F245539CC003DCB5F /* libbsm.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,14 +127,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0B06049245094EC003DCB5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B0604F245094EC003DCB5F /* NetworkExtension.framework in Frameworks */,
+				F0B0608E24553761003DCB5F /* libbsm.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F05F5B21245B386300B37C39 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F05F5B22245B387D00B37C39 /* BundleExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F05F5B28245C9DB200B37C39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F05F5B29245C9DE400B37C39 /* protocols.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		F0B0601824509478003DCB5F = {
 			isa = PBXGroup;
 			children = (
 				F0B0602324509478003DCB5F /* ZTN */,
 				F0B0603C24509479003DCB5F /* ZTNTests */,
+				F0B06050245094EC003DCB5F /* ZTNNetworkExtension */,
+				F0B0604D245094EC003DCB5F /* Frameworks */,
 				F0B0602224509478003DCB5F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,6 +171,7 @@
 			children = (
 				F0B0602124509478003DCB5F /* ZTN.app */,
 				F0B0603924509479003DCB5F /* ZTNTests.xctest */,
+				F0B0604C245094EC003DCB5F /* com.zerotrustnetworks.ZTN.ZTNNetworkExtension.systemextension */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,6 +179,9 @@
 		F0B0602324509478003DCB5F /* ZTN */ = {
 			isa = PBXGroup;
 			children = (
+				F05F5B28245C9DB200B37C39 /* Resources */,
+				F05F5B21245B386300B37C39 /* Extensions */,
+				F0B06095245758ED003DCB5F /* Model */,
 				F0B0602424509478003DCB5F /* AppDelegate.swift */,
 				F0B0602624509478003DCB5F /* ContentView.swift */,
 				F0B0602B24509479003DCB5F /* Assets.xcassets */,
@@ -88,6 +190,12 @@
 				F0B0603424509479003DCB5F /* ZTN.entitlements */,
 				F0B0602824509478003DCB5F /* ZTN.xcdatamodeld */,
 				F0B0602D24509479003DCB5F /* Preview Content */,
+				F0B0605F2450958F003DCB5F /* ExtensionLauncher.swift */,
+				F05F5B17245919BF00B37C39 /* DNSResolver.swift */,
+				F05F5B24245B38B200B37C39 /* ProcessResolver.swift */,
+				F05F5B192459243300B37C39 /* Launcher.swift */,
+				F05F5B1B245B2FF600B37C39 /* DecisionEngine.swift */,
+				F05F5B2D245CA08A00B37C39 /* ServiceResolver.swift */,
 			);
 			path = ZTN;
 			sourceTree = "<group>";
@@ -109,6 +217,41 @@
 			path = ZTNTests;
 			sourceTree = "<group>";
 		};
+		F0B0604D245094EC003DCB5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0B0608D24553751003DCB5F /* libbsm.tbd */,
+				F0B0604E245094EC003DCB5F /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0B06050245094EC003DCB5F /* ZTNNetworkExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F0B06051245094EC003DCB5F /* FilterDataProvider.swift */,
+				F0B06053245094EC003DCB5F /* main.swift */,
+				F0B06055245094EC003DCB5F /* Info.plist */,
+				F0B06056245094EC003DCB5F /* ZTNNetworkExtension.entitlements */,
+				F0B060622451D5A7003DCB5F /* IPCConnection.swift */,
+				F0B060902456887E003DCB5F /* AppCommunication.swift */,
+			);
+			path = ZTNNetworkExtension;
+			sourceTree = "<group>";
+		};
+		F0B06095245758ED003DCB5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0B06093245758DB003DCB5F /* DNSResponse.swift */,
+				F0B06096245759B5003DCB5F /* IPAddress.swift */,
+				F0B0609824575C58003DCB5F /* SocketAddress.swift */,
+				F0241B1B2457D09A0064D893 /* PortServiceDetails.swift */,
+				F05F5B1F245B37D900B37C39 /* ProcessDetails.swift */,
+				F05F5B26245C83D200B37C39 /* Flow.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,10 +262,12 @@
 				F0B0601D24509478003DCB5F /* Sources */,
 				F0B0601E24509478003DCB5F /* Frameworks */,
 				F0B0601F24509478003DCB5F /* Resources */,
+				F0B0605D245094EC003DCB5F /* Embed System Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F0B06058245094EC003DCB5F /* PBXTargetDependency */,
 			);
 			name = ZTN;
 			productName = ZTN;
@@ -147,6 +292,23 @@
 			productReference = F0B0603924509479003DCB5F /* ZTNTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F0B0604B245094EC003DCB5F /* ZTNNetworkExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B0605A245094EC003DCB5F /* Build configuration list for PBXNativeTarget "ZTNNetworkExtension" */;
+			buildPhases = (
+				F0B06048245094EC003DCB5F /* Sources */,
+				F0B06049245094EC003DCB5F /* Frameworks */,
+				F0B0604A245094EC003DCB5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTNNetworkExtension;
+			productName = ZTNNetworkExtension;
+			productReference = F0B0604C245094EC003DCB5F /* com.zerotrustnetworks.ZTN.ZTNNetworkExtension.systemextension */;
+			productType = "com.apple.product-type.system-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -163,6 +325,9 @@
 					F0B0603824509479003DCB5F = {
 						CreatedOnToolsVersion = 11.4.1;
 						TestTargetID = F0B0602024509478003DCB5F;
+					};
+					F0B0604B245094EC003DCB5F = {
+						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
 			};
@@ -181,6 +346,7 @@
 			targets = (
 				F0B0602024509478003DCB5F /* ZTN */,
 				F0B0603824509479003DCB5F /* ZTNTests */,
+				F0B0604B245094EC003DCB5F /* ZTNNetworkExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -193,10 +359,18 @@
 				F0B0603224509479003DCB5F /* Main.storyboard in Resources */,
 				F0B0602F24509479003DCB5F /* Preview Assets.xcassets in Resources */,
 				F0B0602C24509479003DCB5F /* Assets.xcassets in Resources */,
+				F05F5B2A245C9DE400B37C39 /* protocols.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F0B0603724509479003DCB5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B0604A245094EC003DCB5F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,9 +384,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F05F5B1C245B2FF600B37C39 /* DecisionEngine.swift in Sources */,
+				F05F5B27245C83D200B37C39 /* Flow.swift in Sources */,
+				F05F5B25245B38B200B37C39 /* ProcessResolver.swift in Sources */,
+				F0B060912456887E003DCB5F /* AppCommunication.swift in Sources */,
+				F05F5B20245B37D900B37C39 /* ProcessDetails.swift in Sources */,
+				F05F5B2E245CA08A00B37C39 /* ServiceResolver.swift in Sources */,
+				F0241B1C2457D09A0064D893 /* PortServiceDetails.swift in Sources */,
+				F0B06097245759B5003DCB5F /* IPAddress.swift in Sources */,
+				F05F5B23245B387D00B37C39 /* BundleExtension.swift in Sources */,
+				F05F5B18245919BF00B37C39 /* DNSResolver.swift in Sources */,
+				F0B0609924575C58003DCB5F /* SocketAddress.swift in Sources */,
 				F0B0602724509478003DCB5F /* ContentView.swift in Sources */,
 				F0B0602A24509478003DCB5F /* ZTN.xcdatamodeld in Sources */,
+				F05F5B1A2459243300B37C39 /* Launcher.swift in Sources */,
 				F0B0602524509478003DCB5F /* AppDelegate.swift in Sources */,
+				F0B060602450958F003DCB5F /* ExtensionLauncher.swift in Sources */,
+				F0B06094245758DB003DCB5F /* DNSResponse.swift in Sources */,
+				F0B060632451D5A7003DCB5F /* IPCConnection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +413,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0B06048245094EC003DCB5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B060922456887E003DCB5F /* AppCommunication.swift in Sources */,
+				F0B060642451D5A7003DCB5F /* IPCConnection.swift in Sources */,
+				F0B06054245094EC003DCB5F /* main.swift in Sources */,
+				F0B06052245094EC003DCB5F /* FilterDataProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -231,6 +431,11 @@
 			isa = PBXTargetDependency;
 			target = F0B0602024509478003DCB5F /* ZTN */;
 			targetProxy = F0B0603A24509479003DCB5F /* PBXContainerItemProxy */;
+		};
+		F0B06058245094EC003DCB5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0B0604B245094EC003DCB5F /* ZTNNetworkExtension */;
+			targetProxy = F0B06057245094EC003DCB5F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -362,6 +567,7 @@
 		F0B0604324509479003DCB5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ZTN/ZTN.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -385,6 +591,7 @@
 		F0B0604424509479003DCB5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ZTN/ZTN.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +656,48 @@
 			};
 			name = Release;
 		};
+		F0B0605B245094EC003DCB5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ZTNNetworkExtension/ZTNNetworkExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75FTTYURB7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ZTNNetworkExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerotrustnetworks.ZTN.ZTNNetworkExtension;
+				PRODUCT_NAME = "$(inherited)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F0B0605C245094EC003DCB5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ZTNNetworkExtension/ZTNNetworkExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75FTTYURB7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ZTNNetworkExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerotrustnetworks.ZTN.ZTNNetworkExtension;
+				PRODUCT_NAME = "$(inherited)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -475,6 +724,15 @@
 			buildConfigurations = (
 				F0B0604624509479003DCB5F /* Debug */,
 				F0B0604724509479003DCB5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0B0605A245094EC003DCB5F /* Build configuration list for PBXNativeTarget "ZTNNetworkExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B0605B245094EC003DCB5F /* Debug */,
+				F0B0605C245094EC003DCB5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

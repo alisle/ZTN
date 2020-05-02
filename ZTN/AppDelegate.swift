@@ -12,6 +12,7 @@ import SwiftUI
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
+    let launcher = Launcher()
     var window: NSWindow!
 
 
@@ -29,10 +30,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         window.setFrameAutosaveName("Main Window")
         window.contentView = NSHostingView(rootView: contentView)
         window.makeKeyAndOrderFront(nil)
+        
+        self.launcher.launch()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
+        self.launcher.terminate()
     }
 
     // MARK: - Core Data stack
