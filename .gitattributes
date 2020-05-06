@@ -1,0 +1,2 @@
+IP2LOCATION-LITE-DB5.CSV filter=lfs diff=lfs merge=lfs -text
+*.BIN filter=lfs diff=lfs merge=lfs -text
