@@ -10,8 +10,7 @@ import Cocoa
 import SwiftUI
 
 @NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
-
+class AppDelegate: NSObject, NSApplicationDelegate {    
     let launcher = Launcher()
     var window: NSWindow!
 
@@ -28,8 +27,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             backing: .buffered, defer: false)
         window.center()
         window.setFrameAutosaveName("Main Window")
-        window.contentView = NSHostingView(rootView: contentView)
+        window.contentView = NSHostingView(rootView:
+            contentView.environmentObject(launcher.decisionsViewState)
+        )
+        
         window.makeKeyAndOrderFront(nil)
+        
         
         self.launcher.launch()
     }

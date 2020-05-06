@@ -11,7 +11,8 @@ import os.log
 import Darwin
 
 class FilterDataProvider: NEFilterDataProvider {
-    
+    /*
+
     override func startFilter(completionHandler: @escaping (Error?) -> Void) {
         completionHandler(nil)
     }
@@ -20,7 +21,6 @@ class FilterDataProvider: NEFilterDataProvider {
         // Add code to clean up filter resources.
         completionHandler()
     }
-    
     override func handleNewFlow(_ flow: NEFilterFlow) -> NEFilterNewFlowVerdict {
         guard let socketFlow = flow as? NEFilterSocketFlow,
             let remoteEndpoint = socketFlow.remoteEndpoint as? NWHostEndpoint,
@@ -51,6 +51,7 @@ class FilterDataProvider: NEFilterDataProvider {
             let prompted = IPCConnection.shared.flow(aboutFlow: flowInfo) { allow in
                 let verdict: NEFilterNewFlowVerdict = allow ? .allow() : .drop()
                 verdict.shouldReport = true
+                //verdict.statisticsReportFrequency = .medium
                 self.resumeFlow(flow, with: verdict)
             }
             
@@ -98,4 +99,5 @@ class FilterDataProvider: NEFilterDataProvider {
         
         let _ = IPCConnection.shared.flowReport(aboutFlow: flowInfo)
     }
+ */
 }

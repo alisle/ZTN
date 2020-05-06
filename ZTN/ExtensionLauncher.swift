@@ -137,10 +137,12 @@ class ExtensionLauncher : NSObject {
         let filterManager = NEFilterManager.shared()
         
         status = .unknown
+        /*
         if !filterManager.isEnabled {
             status = .stopped
             return
         }
+        */
         
         loadFilterConfiguration { success in
             guard success else {
@@ -173,12 +175,10 @@ class ExtensionLauncher : NSObject {
     
     func enableFilterConfiguration() {
         let filterManager = NEFilterManager.shared()
-/*
         if filterManager.isEnabled {
             registerWithProvider()
             return
         }
-  */
         
         let providerConfiguration = NEFilterProviderConfiguration()
         providerConfiguration.filterSockets = true
@@ -204,18 +204,6 @@ class ExtensionLauncher : NSObject {
             
         }
 
-        /*
-        loadFilterConfiguration { success in
-            guard success else {
-                self.status = .stopped
-                return
-            }
-            
-            //if filterManager.providerConfiguration == nil {
-            //}
-            
-        }
- */
     }
 }
 

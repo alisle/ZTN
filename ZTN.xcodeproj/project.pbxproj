@@ -3,11 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		F0241B1C2457D09A0064D893 /* PortServiceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0241B1B2457D09A0064D893 /* PortServiceDetails.swift */; };
+		F029BA532461AF7500355686 /* DecisionOuputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F029BA522461AF7500355686 /* DecisionOuputView.swift */; };
+		F029BA562461AFBB00355686 /* DecisionsViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F029BA552461AFBB00355686 /* DecisionsViewState.swift */; };
+		F029BA582461B80300355686 /* Flows.swift in Sources */ = {isa = PBXBuildFile; fileRef = F029BA572461B80300355686 /* Flows.swift */; };
+		F029BA7124626FCB00355686 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B0604E245094EC003DCB5F /* NetworkExtension.framework */; };
+		F029BA7424626FCB00355686 /* FilterDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F029BA7324626FCB00355686 /* FilterDataProvider.swift */; };
+		F029BA7624626FCB00355686 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F029BA7524626FCB00355686 /* main.swift */; };
+		F029BA7B24626FCB00355686 /* com.zerotrustnetworks.ZTN.NetworkExtension.systemextension in Embed System Extensions */ = {isa = PBXBuildFile; fileRef = F029BA7024626FCB00355686 /* com.zerotrustnetworks.ZTN.NetworkExtension.systemextension */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F029BA802462708600355686 /* IPCConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F029BA7F2462708600355686 /* IPCConnection.swift */; };
+		F029BA812462708C00355686 /* IPCConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F029BA7F2462708600355686 /* IPCConnection.swift */; };
+		F029BA832462709E00355686 /* AppCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F029BA822462709E00355686 /* AppCommunication.swift */; };
+		F029BA84246270A300355686 /* AppCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F029BA822462709E00355686 /* AppCommunication.swift */; };
+		F05A552E2463119E00BD1C31 /* LocationResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05A552D2463119E00BD1C31 /* LocationResolver.swift */; };
+		F05A55312463120600BD1C31 /* IP2Location in Frameworks */ = {isa = PBXBuildFile; productRef = F05A55302463120600BD1C31 /* IP2Location */; };
+		F05A5533246318F000BD1C31 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05A5532246318F000BD1C31 /* Map.swift */; };
+		F05A55362463192A00BD1C31 /* Topojson in Frameworks */ = {isa = PBXBuildFile; productRef = F05A55352463192A00BD1C31 /* Topojson */; };
+		F05A553924631AA200BD1C31 /* MapGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05A553824631AA200BD1C31 /* MapGraph.swift */; };
+		F05A553C24631B9A00BD1C31 /* land-110m.json in Resources */ = {isa = PBXBuildFile; fileRef = F05A553A24631B9A00BD1C31 /* land-110m.json */; };
+		F05A553D24631B9A00BD1C31 /* IP2LOCATION-LITE-DB11.BIN in Resources */ = {isa = PBXBuildFile; fileRef = F05A553B24631B9A00BD1C31 /* IP2LOCATION-LITE-DB11.BIN */; };
 		F05F5B18245919BF00B37C39 /* DNSResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B17245919BF00B37C39 /* DNSResolver.swift */; };
 		F05F5B1A2459243300B37C39 /* Launcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B192459243300B37C39 /* Launcher.swift */; };
 		F05F5B1C245B2FF600B37C39 /* DecisionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B1B245B2FF600B37C39 /* DecisionEngine.swift */; };
@@ -17,6 +35,14 @@
 		F05F5B27245C83D200B37C39 /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B26245C83D200B37C39 /* Flow.swift */; };
 		F05F5B2A245C9DE400B37C39 /* protocols.json in Resources */ = {isa = PBXBuildFile; fileRef = F05F5B29245C9DE400B37C39 /* protocols.json */; };
 		F05F5B2E245CA08A00B37C39 /* ServiceResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B2D245CA08A00B37C39 /* ServiceResolver.swift */; };
+		F05F5B312460775000B37C39 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B302460775000B37C39 /* EventType.swift */; };
+		F05F5B33246077A200B37C39 /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B32246077A200B37C39 /* EventManager.swift */; };
+		F05F5B362460783800B37C39 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = F05F5B352460783800B37C39 /* Logging */; };
+		F05F5B38246079DD00B37C39 /* NewDeferredFlowEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B37246079DD00B37C39 /* NewDeferredFlowEvent.swift */; };
+		F05F5B3A24607A0500B37C39 /* NewAllowedFlowEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B3924607A0500B37C39 /* NewAllowedFlowEvent.swift */; };
+		F05F5B3C24607A2500B37C39 /* NewDeniedFlowEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B3B24607A2500B37C39 /* NewDeniedFlowEvent.swift */; };
+		F05F5B3E24607A3700B37C39 /* ClosedFlowEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B3D24607A3700B37C39 /* ClosedFlowEvent.swift */; };
+		F05F5B4024607A4400B37C39 /* UpdatedFlowEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05F5B3F24607A4400B37C39 /* UpdatedFlowEvent.swift */; };
 		F0B0602524509478003DCB5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0602424509478003DCB5F /* AppDelegate.swift */; };
 		F0B0602724509478003DCB5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0602624509478003DCB5F /* ContentView.swift */; };
 		F0B0602A24509478003DCB5F /* ZTN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0B0602824509478003DCB5F /* ZTN.xcdatamodeld */; };
@@ -30,11 +56,8 @@
 		F0B06059245094EC003DCB5F /* com.zerotrustnetworks.ZTN.ZTNNetworkExtension.systemextension in Embed System Extensions */ = {isa = PBXBuildFile; fileRef = F0B0604C245094EC003DCB5F /* com.zerotrustnetworks.ZTN.ZTNNetworkExtension.systemextension */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F0B0605E245094FA003DCB5F /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B0604E245094EC003DCB5F /* NetworkExtension.framework */; };
 		F0B060602450958F003DCB5F /* ExtensionLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0605F2450958F003DCB5F /* ExtensionLauncher.swift */; };
-		F0B060632451D5A7003DCB5F /* IPCConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B060622451D5A7003DCB5F /* IPCConnection.swift */; };
 		F0B060642451D5A7003DCB5F /* IPCConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B060622451D5A7003DCB5F /* IPCConnection.swift */; };
-		F0B0608E24553761003DCB5F /* libbsm.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B0608D24553751003DCB5F /* libbsm.tbd */; };
 		F0B0608F245539CC003DCB5F /* libbsm.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B0608D24553751003DCB5F /* libbsm.tbd */; };
-		F0B060912456887E003DCB5F /* AppCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B060902456887E003DCB5F /* AppCommunication.swift */; };
 		F0B060922456887E003DCB5F /* AppCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B060902456887E003DCB5F /* AppCommunication.swift */; };
 		F0B06094245758DB003DCB5F /* DNSResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B06093245758DB003DCB5F /* DNSResponse.swift */; };
 		F0B06097245759B5003DCB5F /* IPAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B06096245759B5003DCB5F /* IPAddress.swift */; };
@@ -42,6 +65,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F029BA7924626FCB00355686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0B0601924509478003DCB5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F029BA6F24626FCB00355686;
+			remoteInfo = NetworkExtension;
+		};
 		F0B0603A24509479003DCB5F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F0B0601924509478003DCB5F /* Project object */;
@@ -66,6 +96,7 @@
 			dstSubfolderSpec = 16;
 			files = (
 				F0B06059245094EC003DCB5F /* com.zerotrustnetworks.ZTN.ZTNNetworkExtension.systemextension in Embed System Extensions */,
+				F029BA7B24626FCB00355686 /* com.zerotrustnetworks.ZTN.NetworkExtension.systemextension in Embed System Extensions */,
 			);
 			name = "Embed System Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +105,21 @@
 
 /* Begin PBXFileReference section */
 		F0241B1B2457D09A0064D893 /* PortServiceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortServiceDetails.swift; sourceTree = "<group>"; };
+		F029BA522461AF7500355686 /* DecisionOuputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionOuputView.swift; sourceTree = "<group>"; };
+		F029BA552461AFBB00355686 /* DecisionsViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionsViewState.swift; sourceTree = "<group>"; };
+		F029BA572461B80300355686 /* Flows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flows.swift; sourceTree = "<group>"; };
+		F029BA7024626FCB00355686 /* com.zerotrustnetworks.ZTN.NetworkExtension.systemextension */ = {isa = PBXFileReference; explicitFileType = "wrapper.system-extension"; includeInIndex = 0; path = com.zerotrustnetworks.ZTN.NetworkExtension.systemextension; sourceTree = BUILT_PRODUCTS_DIR; };
+		F029BA7324626FCB00355686 /* FilterDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDataProvider.swift; sourceTree = "<group>"; };
+		F029BA7524626FCB00355686 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F029BA7724626FCB00355686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F029BA7824626FCB00355686 /* NetworkExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NetworkExtension.entitlements; sourceTree = "<group>"; };
+		F029BA7F2462708600355686 /* IPCConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPCConnection.swift; sourceTree = "<group>"; };
+		F029BA822462709E00355686 /* AppCommunication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCommunication.swift; sourceTree = "<group>"; };
+		F05A552D2463119E00BD1C31 /* LocationResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationResolver.swift; sourceTree = "<group>"; };
+		F05A5532246318F000BD1C31 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		F05A553824631AA200BD1C31 /* MapGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapGraph.swift; sourceTree = "<group>"; };
+		F05A553A24631B9A00BD1C31 /* land-110m.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "land-110m.json"; sourceTree = "<group>"; };
+		F05A553B24631B9A00BD1C31 /* IP2LOCATION-LITE-DB11.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "IP2LOCATION-LITE-DB11.BIN"; sourceTree = "<group>"; };
 		F05F5B17245919BF00B37C39 /* DNSResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSResolver.swift; sourceTree = "<group>"; };
 		F05F5B192459243300B37C39 /* Launcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launcher.swift; sourceTree = "<group>"; };
 		F05F5B1B245B2FF600B37C39 /* DecisionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionEngine.swift; sourceTree = "<group>"; };
@@ -83,6 +129,13 @@
 		F05F5B26245C83D200B37C39 /* Flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
 		F05F5B29245C9DE400B37C39 /* protocols.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = protocols.json; sourceTree = "<group>"; };
 		F05F5B2D245CA08A00B37C39 /* ServiceResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceResolver.swift; sourceTree = "<group>"; };
+		F05F5B302460775000B37C39 /* EventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
+		F05F5B32246077A200B37C39 /* EventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
+		F05F5B37246079DD00B37C39 /* NewDeferredFlowEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDeferredFlowEvent.swift; sourceTree = "<group>"; };
+		F05F5B3924607A0500B37C39 /* NewAllowedFlowEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAllowedFlowEvent.swift; sourceTree = "<group>"; };
+		F05F5B3B24607A2500B37C39 /* NewDeniedFlowEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDeniedFlowEvent.swift; sourceTree = "<group>"; };
+		F05F5B3D24607A3700B37C39 /* ClosedFlowEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosedFlowEvent.swift; sourceTree = "<group>"; };
+		F05F5B3F24607A4400B37C39 /* UpdatedFlowEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatedFlowEvent.swift; sourceTree = "<group>"; };
 		F0B0602124509478003DCB5F /* ZTN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0B0602424509478003DCB5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0B0602624509478003DCB5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,12 +164,23 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F029BA6D24626FCB00355686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F029BA7124626FCB00355686 /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F0B0601E24509478003DCB5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F05F5B362460783800B37C39 /* Logging in Frameworks */,
 				F0B0605E245094FA003DCB5F /* NetworkExtension.framework in Frameworks */,
 				F0B0608F245539CC003DCB5F /* libbsm.tbd in Frameworks */,
+				F05A55312463120600BD1C31 /* IP2Location in Frameworks */,
+				F05A55362463192A00BD1C31 /* Topojson in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,13 +196,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0B0604F245094EC003DCB5F /* NetworkExtension.framework in Frameworks */,
-				F0B0608E24553761003DCB5F /* libbsm.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F029BA512461AF5400355686 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F05A553724631A8E00BD1C31 /* Graphs */,
+				F029BA522461AF7500355686 /* DecisionOuputView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F029BA542461AFA200355686 /* ViewState */ = {
+			isa = PBXGroup;
+			children = (
+				F029BA552461AFBB00355686 /* DecisionsViewState.swift */,
+			);
+			path = ViewState;
+			sourceTree = "<group>";
+		};
+		F029BA7224626FCB00355686 /* NetworkExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F029BA7324626FCB00355686 /* FilterDataProvider.swift */,
+				F029BA7524626FCB00355686 /* main.swift */,
+				F029BA7724626FCB00355686 /* Info.plist */,
+				F029BA7824626FCB00355686 /* NetworkExtension.entitlements */,
+				F029BA7F2462708600355686 /* IPCConnection.swift */,
+				F029BA822462709E00355686 /* AppCommunication.swift */,
+			);
+			path = NetworkExtension;
+			sourceTree = "<group>";
+		};
+		F05A552C2463112B00BD1C31 /* Resolvers */ = {
+			isa = PBXGroup;
+			children = (
+				F05F5B17245919BF00B37C39 /* DNSResolver.swift */,
+				F05F5B24245B38B200B37C39 /* ProcessResolver.swift */,
+				F05F5B2D245CA08A00B37C39 /* ServiceResolver.swift */,
+				F05A552D2463119E00BD1C31 /* LocationResolver.swift */,
+			);
+			path = Resolvers;
+			sourceTree = "<group>";
+		};
+		F05A553724631A8E00BD1C31 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				F05A553824631AA200BD1C31 /* MapGraph.swift */,
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
 		F05F5B21245B386300B37C39 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,15 +262,32 @@
 		F05F5B28245C9DB200B37C39 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F05A553B24631B9A00BD1C31 /* IP2LOCATION-LITE-DB11.BIN */,
+				F05A553A24631B9A00BD1C31 /* land-110m.json */,
 				F05F5B29245C9DE400B37C39 /* protocols.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		F05F5B2F2460773400B37C39 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				F05F5B302460775000B37C39 /* EventType.swift */,
+				F05F5B32246077A200B37C39 /* EventManager.swift */,
+				F05F5B37246079DD00B37C39 /* NewDeferredFlowEvent.swift */,
+				F05F5B3924607A0500B37C39 /* NewAllowedFlowEvent.swift */,
+				F05F5B3B24607A2500B37C39 /* NewDeniedFlowEvent.swift */,
+				F05F5B3D24607A3700B37C39 /* ClosedFlowEvent.swift */,
+				F05F5B3F24607A4400B37C39 /* UpdatedFlowEvent.swift */,
+			);
+			path = Events;
 			sourceTree = "<group>";
 		};
 		F0B0601824509478003DCB5F = {
 			isa = PBXGroup;
 			children = (
 				F0B0602324509478003DCB5F /* ZTN */,
+				F029BA7224626FCB00355686 /* NetworkExtension */,
 				F0B0603C24509479003DCB5F /* ZTNTests */,
 				F0B06050245094EC003DCB5F /* ZTNNetworkExtension */,
 				F0B0604D245094EC003DCB5F /* Frameworks */,
@@ -172,6 +301,7 @@
 				F0B0602124509478003DCB5F /* ZTN.app */,
 				F0B0603924509479003DCB5F /* ZTNTests.xctest */,
 				F0B0604C245094EC003DCB5F /* com.zerotrustnetworks.ZTN.ZTNNetworkExtension.systemextension */,
+				F029BA7024626FCB00355686 /* com.zerotrustnetworks.ZTN.NetworkExtension.systemextension */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -179,9 +309,13 @@
 		F0B0602324509478003DCB5F /* ZTN */ = {
 			isa = PBXGroup;
 			children = (
+				F05A552C2463112B00BD1C31 /* Resolvers */,
+				F029BA542461AFA200355686 /* ViewState */,
+				F029BA512461AF5400355686 /* Views */,
+				F05F5B2F2460773400B37C39 /* Events */,
 				F05F5B28245C9DB200B37C39 /* Resources */,
 				F05F5B21245B386300B37C39 /* Extensions */,
-				F0B06095245758ED003DCB5F /* Model */,
+				F0B06095245758ED003DCB5F /* Models */,
 				F0B0602424509478003DCB5F /* AppDelegate.swift */,
 				F0B0602624509478003DCB5F /* ContentView.swift */,
 				F0B0602B24509479003DCB5F /* Assets.xcassets */,
@@ -191,11 +325,9 @@
 				F0B0602824509478003DCB5F /* ZTN.xcdatamodeld */,
 				F0B0602D24509479003DCB5F /* Preview Content */,
 				F0B0605F2450958F003DCB5F /* ExtensionLauncher.swift */,
-				F05F5B17245919BF00B37C39 /* DNSResolver.swift */,
-				F05F5B24245B38B200B37C39 /* ProcessResolver.swift */,
 				F05F5B192459243300B37C39 /* Launcher.swift */,
 				F05F5B1B245B2FF600B37C39 /* DecisionEngine.swift */,
-				F05F5B2D245CA08A00B37C39 /* ServiceResolver.swift */,
+				F029BA572461B80300355686 /* Flows.swift */,
 			);
 			path = ZTN;
 			sourceTree = "<group>";
@@ -239,7 +371,7 @@
 			path = ZTNNetworkExtension;
 			sourceTree = "<group>";
 		};
-		F0B06095245758ED003DCB5F /* Model */ = {
+		F0B06095245758ED003DCB5F /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				F0B06093245758DB003DCB5F /* DNSResponse.swift */,
@@ -248,13 +380,31 @@
 				F0241B1B2457D09A0064D893 /* PortServiceDetails.swift */,
 				F05F5B1F245B37D900B37C39 /* ProcessDetails.swift */,
 				F05F5B26245C83D200B37C39 /* Flow.swift */,
+				F05A5532246318F000BD1C31 /* Map.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F029BA6F24626FCB00355686 /* NetworkExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F029BA7C24626FCB00355686 /* Build configuration list for PBXNativeTarget "NetworkExtension" */;
+			buildPhases = (
+				F029BA6C24626FCB00355686 /* Sources */,
+				F029BA6D24626FCB00355686 /* Frameworks */,
+				F029BA6E24626FCB00355686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkExtension;
+			productName = NetworkExtension;
+			productReference = F029BA7024626FCB00355686 /* com.zerotrustnetworks.ZTN.NetworkExtension.systemextension */;
+			productType = "com.apple.product-type.system-extension";
+		};
 		F0B0602024509478003DCB5F /* ZTN */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0B0604224509479003DCB5F /* Build configuration list for PBXNativeTarget "ZTN" */;
@@ -268,8 +418,14 @@
 			);
 			dependencies = (
 				F0B06058245094EC003DCB5F /* PBXTargetDependency */,
+				F029BA7A24626FCB00355686 /* PBXTargetDependency */,
 			);
 			name = ZTN;
+			packageProductDependencies = (
+				F05F5B352460783800B37C39 /* Logging */,
+				F05A55302463120600BD1C31 /* IP2Location */,
+				F05A55352463192A00BD1C31 /* Topojson */,
+			);
 			productName = ZTN;
 			productReference = F0B0602124509478003DCB5F /* ZTN.app */;
 			productType = "com.apple.product-type.application";
@@ -319,6 +475,9 @@
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Alex Lisle";
 				TargetAttributes = {
+					F029BA6F24626FCB00355686 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
 					F0B0602024509478003DCB5F = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
@@ -340,6 +499,11 @@
 				Base,
 			);
 			mainGroup = F0B0601824509478003DCB5F;
+			packageReferences = (
+				F05F5B342460783800B37C39 /* XCRemoteSwiftPackageReference "swift-log" */,
+				F05A552F2463120600BD1C31 /* XCRemoteSwiftPackageReference "IP2Location-Swift" */,
+				F05A55342463192A00BD1C31 /* XCRemoteSwiftPackageReference "Topojson-Swift" */,
+			);
 			productRefGroup = F0B0602224509478003DCB5F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -347,11 +511,19 @@
 				F0B0602024509478003DCB5F /* ZTN */,
 				F0B0603824509479003DCB5F /* ZTNTests */,
 				F0B0604B245094EC003DCB5F /* ZTNNetworkExtension */,
+				F029BA6F24626FCB00355686 /* NetworkExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F029BA6E24626FCB00355686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F0B0601F24509478003DCB5F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,6 +532,8 @@
 				F0B0602F24509479003DCB5F /* Preview Assets.xcassets in Resources */,
 				F0B0602C24509479003DCB5F /* Assets.xcassets in Resources */,
 				F05F5B2A245C9DE400B37C39 /* protocols.json in Resources */,
+				F05A553D24631B9A00BD1C31 /* IP2LOCATION-LITE-DB11.BIN in Resources */,
+				F05A553C24631B9A00BD1C31 /* land-110m.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +554,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F029BA6C24626FCB00355686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F029BA832462709E00355686 /* AppCommunication.swift in Sources */,
+				F029BA802462708600355686 /* IPCConnection.swift in Sources */,
+				F029BA7624626FCB00355686 /* main.swift in Sources */,
+				F029BA7424626FCB00355686 /* FilterDataProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F0B0601D24509478003DCB5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -387,21 +572,34 @@
 				F05F5B1C245B2FF600B37C39 /* DecisionEngine.swift in Sources */,
 				F05F5B27245C83D200B37C39 /* Flow.swift in Sources */,
 				F05F5B25245B38B200B37C39 /* ProcessResolver.swift in Sources */,
-				F0B060912456887E003DCB5F /* AppCommunication.swift in Sources */,
+				F05F5B3E24607A3700B37C39 /* ClosedFlowEvent.swift in Sources */,
 				F05F5B20245B37D900B37C39 /* ProcessDetails.swift in Sources */,
+				F05F5B4024607A4400B37C39 /* UpdatedFlowEvent.swift in Sources */,
 				F05F5B2E245CA08A00B37C39 /* ServiceResolver.swift in Sources */,
 				F0241B1C2457D09A0064D893 /* PortServiceDetails.swift in Sources */,
+				F05A553924631AA200BD1C31 /* MapGraph.swift in Sources */,
+				F029BA582461B80300355686 /* Flows.swift in Sources */,
 				F0B06097245759B5003DCB5F /* IPAddress.swift in Sources */,
+				F05A5533246318F000BD1C31 /* Map.swift in Sources */,
 				F05F5B23245B387D00B37C39 /* BundleExtension.swift in Sources */,
 				F05F5B18245919BF00B37C39 /* DNSResolver.swift in Sources */,
+				F05F5B38246079DD00B37C39 /* NewDeferredFlowEvent.swift in Sources */,
+				F05F5B33246077A200B37C39 /* EventManager.swift in Sources */,
 				F0B0609924575C58003DCB5F /* SocketAddress.swift in Sources */,
+				F029BA562461AFBB00355686 /* DecisionsViewState.swift in Sources */,
 				F0B0602724509478003DCB5F /* ContentView.swift in Sources */,
 				F0B0602A24509478003DCB5F /* ZTN.xcdatamodeld in Sources */,
+				F05F5B3C24607A2500B37C39 /* NewDeniedFlowEvent.swift in Sources */,
+				F05F5B3A24607A0500B37C39 /* NewAllowedFlowEvent.swift in Sources */,
+				F029BA84246270A300355686 /* AppCommunication.swift in Sources */,
+				F05F5B312460775000B37C39 /* EventType.swift in Sources */,
 				F05F5B1A2459243300B37C39 /* Launcher.swift in Sources */,
 				F0B0602524509478003DCB5F /* AppDelegate.swift in Sources */,
 				F0B060602450958F003DCB5F /* ExtensionLauncher.swift in Sources */,
 				F0B06094245758DB003DCB5F /* DNSResponse.swift in Sources */,
-				F0B060632451D5A7003DCB5F /* IPCConnection.swift in Sources */,
+				F029BA812462708C00355686 /* IPCConnection.swift in Sources */,
+				F05A552E2463119E00BD1C31 /* LocationResolver.swift in Sources */,
+				F029BA532461AF7500355686 /* DecisionOuputView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +625,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F029BA7A24626FCB00355686 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F029BA6F24626FCB00355686 /* NetworkExtension */;
+			targetProxy = F029BA7924626FCB00355686 /* PBXContainerItemProxy */;
+		};
 		F0B0603B24509479003DCB5F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F0B0602024509478003DCB5F /* ZTN */;
@@ -451,6 +654,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F029BA7D24626FCB00355686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NetworkExtension/NetworkExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75FTTYURB7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = NetworkExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerotrustnetworks.ZTN.NetworkExtension;
+				PRODUCT_NAME = "$(inherited)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F029BA7E24626FCB00355686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NetworkExtension/NetworkExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75FTTYURB7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = NetworkExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerotrustnetworks.ZTN.NetworkExtension;
+				PRODUCT_NAME = "$(inherited)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		F0B0604024509479003DCB5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -701,6 +946,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F029BA7C24626FCB00355686 /* Build configuration list for PBXNativeTarget "NetworkExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F029BA7D24626FCB00355686 /* Debug */,
+				F029BA7E24626FCB00355686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F0B0601C24509478003DCB5F /* Build configuration list for PBXProject "ZTN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -738,6 +992,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F05A552F2463120600BD1C31 /* XCRemoteSwiftPackageReference "IP2Location-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alisle/IP2Location-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+		F05A55342463192A00BD1C31 /* XCRemoteSwiftPackageReference "Topojson-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alisle/Topojson-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		F05F5B342460783800B37C39 /* XCRemoteSwiftPackageReference "swift-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-log.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F05A55302463120600BD1C31 /* IP2Location */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F05A552F2463120600BD1C31 /* XCRemoteSwiftPackageReference "IP2Location-Swift" */;
+			productName = IP2Location;
+		};
+		F05A55352463192A00BD1C31 /* Topojson */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F05A55342463192A00BD1C31 /* XCRemoteSwiftPackageReference "Topojson-Swift" */;
+			productName = Topojson;
+		};
+		F05F5B352460783800B37C39 /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F05F5B342460783800B37C39 /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		F0B0602824509478003DCB5F /* ZTN.xcdatamodeld */ = {

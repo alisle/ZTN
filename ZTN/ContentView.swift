@@ -9,15 +9,30 @@
 import SwiftUI
 
 struct ContentView: View {
+
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        VStack {
+            CombinedDecisionsListView()
+        }
     }
 }
 
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        
+        let flows = Flows()
+        let state = DecisionsViewState(flows: flows)
+        (0..<10).forEach { _ in
+            let allowed = NewAllowedFlowEvent(flow: generateDebugFlow(decision: .allowed, direction: .inbound))
+            
+            let deferred = NewDeferredFlowEvent(flow: generateDebugFlow(decision: .deferred, direction: .inbound))
+            
+            flows.eventTriggered(event: allowed)
+            flows.eventTriggered(event: deferred)
+        }
+        
+        return ContentView().environmentObject(state)
+
     }
 }

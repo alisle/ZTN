@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "IP2Location",
+        "repositoryURL": "https://github.com/alisle/IP2Location-Swift",
+        "state": {
+          "branch": null,
+          "revision": "08677c85814a1587050f3b0ce293f1ed6585f4dc",
+          "version": "1.0.2"
+        }
+      },
+      {
+        "package": "swift-log",
+        "repositoryURL": "https://github.com/apple/swift-log.git",
+        "state": {
+          "branch": null,
+          "revision": "74d7b91ceebc85daf387ebb206003f78813f71aa",
+          "version": "1.2.0"
+        }
+      },
+      {
+        "package": "Topojson",
+        "repositoryURL": "https://github.com/alisle/Topojson-Swift",
+        "state": {
+          "branch": null,
+          "revision": "4b3879b03b239da6a3eb8a334de4951705a0dbd4",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
